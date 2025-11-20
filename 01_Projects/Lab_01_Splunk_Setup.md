@@ -27,9 +27,9 @@ _Then I started the docker service._
 sudo systemctl start docker
 ```
 
-_Following this I ran the command below. This will run docker in the background utilizing the `-d` flag. The `-p` flag maps the port from my computer to the docker container. Then the command will set the admin password and name the container "splunk". 
+_Following this I ran the command below. This will run docker in the background utilizing the `-d` flag. The `-p` flag maps the port from my computer to the docker container. Then the command will set the admin password and name the container "splunk"._
 
-Never use insecure passwords even if you are running something locally. Replace "Welcome123456" with a secure password of your choice._
+_Never use insecure passwords even if you are running something locally. Replace "Welcome123456" with a secure password of your choice._
 ```bash
 sudo docker run -d -p 8000:8000 -e "SPLUNK_GENERAL_TERMS=--accept-sgt-current-at-splunk-com" -e "SPLUNK_START_ARGS=--accept-license" -e "SPLUNK_PASSWORD=Welcome123456" --name splunk splunk/splunk:latest
 ```
