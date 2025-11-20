@@ -39,7 +39,7 @@ Now that the splunk container is set up we can visit it in our web browser by na
 
 _What did I see?_
 
-![](Lab_01_Splunk_Setup-1763667915908.png)
+![](../_Assets/Lab_01_Splunk_Setup-1763670205998.png)
 
 > **Observation:** The Splunk Environment has been successfully configured and I am greeted with the dashboard. 
 
