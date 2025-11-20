@@ -39,7 +39,7 @@ graph TD
 
 _As I complete labs, I will link them here:_
 
-- [[Lab_01_Splunk_Setup]] - Setting up Splunk Enterprise in Docker
+* [Lab 1: Splunk Setup](01_Projects/Lab_01_Splunk_Setup.md) - Setting up Splunk Enterprise in Docker
     
 - [[PCAP_Analysis]] - Analyzing SYN Scans with Wireshark
     
